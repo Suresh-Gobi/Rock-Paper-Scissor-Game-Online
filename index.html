@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Paper Siccsor Rock Game</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div onload="paper();"></div>
+    <table class="wood">
+        <th>
+            <div class="result">
+                <img src="img/wood.png" style="height: 150px;width:450px;">
+                <div class="board"><span id="result"></span></div>
+            </div>
+        </th>
+    </table>
+
+<div class="text">
+    <div  class="computer">
+     <h2>Computer : <span id="computer"></span></h2>
+    </div>
+
+    <div class="user">
+        <h2>User : <span id="user"></span></h2>
+    </div>
+
+
+    </div>
+    
+
+
+<div class="img">
+    <table>
+        <th style="padding-top: 50px;padding: 50px;">
+            <div>
+                <img src = "img/rock.png" id="Rock" class="rock" onclick="rock();">
+            </div>
+        </th>
+        <th style="padding-top: 50px;padding: 50px;">
+            
+        <div>
+            <img src="img/paper.png" id="Paper" class="paper" onclick="paper();">
+        </div>
+        </th>
+    
+        <th style="padding-top: 50px;padding: 50px;">
+            <div>
+                <img src="img/sci.png" id="Scissor" class="scissors" onclick="sci();">
+            </div>
+        </th>
+    </table>
+
+</div> 
+
+
+
+<script src="app.js"></script>
+<script src="sound.js"></script>
+</body>
+</html>

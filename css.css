@@ -1,0 +1,89 @@
+body {
+    background-image: url("img/bg.jpg");
+}
+
+.text {
+
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 24px;
+}
+
+.computer {
+    float: right; 
+    margin-top: 20px;
+}
+
+.user {
+    float: left;
+    margin-top: 20px;
+}
+
+.result {
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    color: black;
+}
+
+
+.img {
+
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.rock {
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.05s linear;
+    transition: all .05s linear;
+}
+
+.rock:active {
+    transform: translateY(5px);
+}
+
+.paper{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.paper:active {
+    border-color: blanchedalmond;
+    border-radius: 5px;
+    transform: translateY(5px);
+}
+
+.scissors {
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.scissors:active {
+    border-color: blanchedalmond;
+    border-radius: 5px;
+    transform: translateY(5px);
+}
+
+
+.board{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wood{
+    margin-left: 420px;
+    margin-right: 150px;
+    font-size: 38px;
+    color: aliceblue;
+}
